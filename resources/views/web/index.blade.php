@@ -93,7 +93,7 @@
 									<div class="image round fit">
 										<img src="images/pic03.jpg" alt="" />
 									</div>
-									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis  aliquet. </p>
 									<a href="#" class="button">Learn More</a>
 								</div>
 								<div class="col align-center">

@@ -1,17 +1,13 @@
-@extends('web.layouts.main')
-@section('headSection')
-{{-- <link rel="stylesheet" href="{{ asset('admin/plugins/select2/select2.min.css') }}"> --}}
-@endsection
-@section('main-content')
-		<!-- Main -->
-		<div id="main">
-			<section class="wrapper style1">
-				<div class="inner">
-					<header class="align-center">
-						<h2>Ingresa!</h2>
-						<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-					</header>
-					<div class="panel-body">
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Login</div>
+
+                <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
@@ -66,11 +62,8 @@
                         </div>
                     </form>
                 </div>
-				</div>
-			</section>
-		</div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
-@section('footerSection')
-@endsection
-
-	

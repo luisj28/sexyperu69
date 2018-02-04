@@ -2,15 +2,7 @@
 @section('headSection')
 {{-- <link rel="stylesheet" href="{{ asset('admin/plugins/select2/select2.min.css') }}"> --}}
 @endsection
-@section('main-content')
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="generic.html">Generic</a></li>
-				<li><a href="elements.html">Elements</a></li>
-			</ul>
-		</nav>
-	<!-- Banner -->
+@section('main-content')		
 		<section id="banner">
 			<div class="inner">
 				<header>
@@ -18,9 +10,17 @@
 					<p>Aliquam libero augue varius non odio nec faucibus congue<br />felis quisque a diam rutrum tempus massa accumsan faucibus purus.</p>
 				</header>
 				<a href="#main" class="button big scrolly">Learn More</a>
+				<a href="{{ route('logout') }}"
+					id="boton-logout" 
+                    onclick="event.preventDefault();
+                             document.getElementById('logout-form').submit();">
+                    Logout
+                </a>
+
+                                        
 			</div>
 		</section>
-	<!-- Main -->
+		<!-- Main -->
 		<div id="main">
 			<!--	<section class="wrapper style2">
 					<div class="inner">
@@ -72,9 +72,20 @@
 					</div>
 				</section>
 		</div>
-	<!-- Footer -->
+		<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            {{ csrf_field() }}
+        </form>
 @endsection
 @section('footerSection')
+<script>
+	console.log("index, aqui rpobaremos el logout");
+	console.log("boton," +  document.getElementById("logout").value );
+	//document.getElementById("boton-logout").click();
+	document.getElementById("logout").addEventListener("click", function(){
+	    //document.getElementById("demo").innerHTML = "Hello World";
+	    document.getElementById("boton-logout").click();
+	});
+</script>
 @endsection
 
 	

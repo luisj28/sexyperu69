@@ -13,5 +13,6 @@
 	@section('main-content')
 		@show
 	@include('web.layouts.footer')
+	
 </body>
 </html>

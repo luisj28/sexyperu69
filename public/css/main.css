@@ -1585,7 +1585,7 @@
 /* Type */
 
 	body {
-		background-color: #fff;
+		background-color: #000000;
 		color: #999999;
 	}
 
@@ -1962,7 +1962,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: #ea466e;
 		color: #fff !important;
 	}
 
@@ -2895,7 +2895,7 @@
 			}
 
 		.wrapper.style1 {
-			background-color: #fafafa;
+			background-color: #222631;
 			color: #999999;
 		}
 
@@ -2941,8 +2941,8 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #3498db;
-				color: #fff !important;
+				background-color: #fff;
+				color: #ea466e !important;
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
@@ -3107,7 +3107,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
+			background-color: #ea466e;
 			color: #aed6f1;
 		}
 
@@ -3120,7 +3120,7 @@
 			}
 
 				.wrapper.style2 a:hover {
-					color: rgba(153, 153, 153, 0.5);
+					color: rgba(0, 0, 0, 0.5);
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3427,7 +3427,7 @@
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: #3498db;
+				color: #ea466e;
 			}
 
 				#header > .logo a:hover {
@@ -3874,7 +3874,7 @@
 		}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: #fff;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;

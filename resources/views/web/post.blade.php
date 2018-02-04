@@ -6,19 +6,19 @@
 -->
 <html>
 	<head>
-		<title>Urban by TEMPLATED</title>
+		<title>Generic - Urban by TEMPLATED</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="{{ asset('css/main.css')}}" />
 	</head>
-	<body>
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header" class="alt">
+			<header id="header">
 				<div class="logo"><a href="index.html">Urban <span>by TEMPLATED</span></a></div>
 				<a href="#menu">Menu</a>
 			</header>
-			<!--		{{ asset('')  }} -->
+
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
@@ -28,30 +28,21 @@
 				</ul>
 			</nav>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<header>
-						<h1>This is Urban</h1>
-						<p>Aliquam libero augue varius non odio nec faucibus congue<br />felis quisque a diam rutrum tempus massa accumsan faucibus purus.</p>
-					</header>
-					<a href="#main" class="button big scrolly">Learn More</a>
-				</div>
-			</section>
-
 		<!-- Main -->
 			<div id="main">
 
-
-				
-				<!--	<section class="wrapper style2">
+				<!-- Section -->
+					<section class="wrapper">
 						<div class="inner">
+							<header class="align-center">
+
+								<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+							</header>
 							<div class="flex flex-2">
 								<div class="col col2">
 									<h3>Suspendisse quis massa vel justo</h3>
 									<p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
-									<p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-									<a href="#" class="button">Learn More</a>
+								
 								</div>
 								<div class="col col1 first">
 									<div class="image round fit">
@@ -59,8 +50,9 @@
 									</div>
 								</div>
 							</div>
+							
 						</div>
-					</section>-->
+					</section>
 
 				<!-- Section -->
 					<section class="wrapper style1">
@@ -74,7 +66,7 @@
 									<div class="image round fit">
 										<img src="images/pic03.jpg" alt="" />
 									</div>
-									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis  aliquet. </p>
+									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
 									<a href="#" class="button">Learn More</a>
 								</div>
 								<div class="col align-center">
@@ -111,12 +103,13 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js')  }}"></script>
-			<script src="{{ asset('js/jquery.scrolly.min.js')  }}"></script>
-			<script src="{{ asset('js/jquery.scrollex.min.js')  }}"></script>
-			<script src="{{ asset('js/skel.min.js')  }}"></script>
-			<script src="{{ asset('js/util.js')  }}"></script>
-			<script src="{{ asset('js/main.js')  }}"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
+	</html>	
 </html>

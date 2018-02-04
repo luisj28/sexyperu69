@@ -14,7 +14,7 @@
 
 		@else
 			<li>
-                <a href=""
+                <a href="#"
                 	id="logout"
                     {{-- onclick="event.preventDefault(); document.getElementById('logout-form2').submit();" --}}>
                     Salir

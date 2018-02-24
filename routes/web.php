@@ -2,12 +2,12 @@
 
 
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('web.index');
-});
+}); */
 Route::get('/post', function () {
     return view('web.post');
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');

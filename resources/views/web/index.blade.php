@@ -1,91 +1,122 @@
-@extends('web.layouts.main')
-@section('headSection')
-{{-- <link rel="stylesheet" href="{{ asset('admin/plugins/select2/select2.min.css') }}"> --}}
-@endsection
-@section('main-content')		
-		<section id="banner">
-			<div class="inner">
-				<header>
-					<h1>This is Urban</h1>
-					<p>Aliquam libero augue varius non odio nec faucibus congue<br />felis quisque a diam rutrum tempus massa accumsan faucibus purus.</p>
-				</header>
-				<a href="#main" class="button big scrolly">Learn More</a>
-				<a href="{{ route('logout') }}"
-					id="boton-logout" 
-                    onclick="event.preventDefault();
-                             document.getElementById('logout-form').submit();">
-                    Logout
-                </a>
+<!DOCTYPE HTML>
+<!--
+	Radius by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>SexyPeru 69</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ asset('web/css/main.css') }}" />
+	</head>
+	<body>
 
-                                        
-			</div>
-		</section>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<div class="content">
+						<h1>SexyPeru 69</h1>
+						<h2>El lugar donde encontraras la chicas ideales<br />
+						 ;)</h2>
+						<a href="#" class="button big alt"><span>ver chicas</span></a>
+					</div>
+					<a href="#" class="button hidden"><span>ver chicas</span></a>
+				</div>
+			</header>
+
 		<!-- Main -->
-		<div id="main">
-			<!--	<section class="wrapper style2">
-					<div class="inner">
-						<div class="flex flex-2">
-							<div class="col col2">
-								<h3>Suspendisse quis massa vel justo</h3>
-								<p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
-								<p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-								<a href="#" class="button">Learn More</a>
-							</div>
-							<div class="col col1 first">
-								<div class="image round fit">
-									<a href="generic.html" class="link"><img src="images/pic02.jpg" alt="" /></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>-->
-			<!-- Section -->
-				<section class="wrapper style1">
-					<div class="inner">
-						<header class="align-center">
-							<h2>Aliquam ipsum purus dolor</h2>
-							<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-						</header>
-						<div class="flex flex-3">
-							<div class="col align-center">
-								<div class="image round fit">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-								<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis  aliquet. </p>
-								<a href="#" class="button">Learn More</a>
-							</div>
-							<div class="col align-center">
-								<div class="image round fit">
-									<img src="images/pic05.jpg" alt="" />
-								</div>
-								<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-								<a href="#" class="button">Learn More</a>
-							</div>
-							<div class="col align-center">
-								<div class="image round fit">
-									<img src="images/pic04.jpg" alt="" />
-								</div>
-								<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-								<a href="#" class="button">Learn More</a>
-							</div>
-						</div>
-					</div>
-				</section>
-		</div>
-		<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-            {{ csrf_field() }}
-        </form>
-@endsection
-@section('footerSection')
-<script>
-	console.log("index, aqui rpobaremos el logout");
-	console.log("boton," +  document.getElementById("logout").value );
-	//document.getElementById("boton-logout").click();
-	document.getElementById("logout").addEventListener("click", function(){
-	    //document.getElementById("demo").innerHTML = "Hello World";
-	    document.getElementById("boton-logout").click();
-	});
-</script>
-@endsection
+			<div id="main">
+				<div class="inner">
+					<div class="columns">
 
-	
+						<!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
+							</div>
+
+						<!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
+							</div>
+
+						<!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
+							</div>
+
+						<!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
+							</div>
+							<div class="image fit">
+								<a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
+							</div>
+
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>Sexy Peru 69</h3>
+						<p>Bienvenido al lugar donde todas tus fan.</p>
+					</div>
+					<div class="copyright">
+						<h3>Follow me</h3>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul>
+						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ asset('web/js/jquery.min.js') }}"></script>
+			<script src="{{ asset('web/js/skel.min.js') }}"></script>
+			<script src="{{ asset('web/js/util.js') }}"></script>
+			<script src="{{ asset('web/js/main.js') }}"></script>
+
+	</body>
+</html>

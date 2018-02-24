@@ -9,7 +9,7 @@
 		<title>Detail 2 - Radius by TEMPLATED</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{{ asset('web/css/main.css') }}" />
 	</head>
 	<body>
 
@@ -28,7 +28,7 @@
 			<div id="preview" class="vertical">
 				<div class="inner">
 					<div class="image fit">
-						<img src="images/pic04.jpg" alt="" />
+						<img src="{{ asset('web/images/pic04.jpg') }}" alt="" />
 					</div>
 					<div class="content">
 						<header>

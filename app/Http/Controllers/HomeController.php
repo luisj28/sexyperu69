@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('web.index');
     }
+    
+    public function detail($id)
+    {
+        return view('web.detail');
+    }
 }

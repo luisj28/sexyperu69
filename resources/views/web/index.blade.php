@@ -33,58 +33,58 @@
 
 						<!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 
 						<!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 
 						<!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 
 						<!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
+								<a href="{{ route('detail', 1) }}"><img src="{{ asset('web/images/pic01.jpg') }}" alt="" /></a>
 							</div>
 
 					</div>
@@ -97,7 +97,7 @@
 				<div class="inner">
 					<div class="content">
 						<h3>Sexy Peru 69</h3>
-						<p>Bienvenido al lugar donde todas tus fan.</p>
+						<p>Bienvenido al lugar donde todas tus fantasias seharan realidad.</p>
 					</div>
 					<div class="copyright">
 						<h3>Follow me</h3>
